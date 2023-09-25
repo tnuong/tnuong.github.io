@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="489dp"
+        app:srcCompat="@drawable/sskype" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="350dp"
+
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:ems="10"
+        android:hint="Username"
+        android:textColor="#fff"
+        android:inputType="text"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:textColor=" #000000"
+        android:background="#11000000"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="230dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="107dp"
+        app:cardBackgroundColor="#E91E63"
+
+        app:cardCornerRadius="25dp"
+      app:cardElevation="10dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="34dp"
+        android:text="Register Here"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Đỗ Thị Thanh Nương_21115053120133" />
+
+</RelativeLayout>
